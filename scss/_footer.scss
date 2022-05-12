@@ -1,0 +1,68 @@
+@import "colors.scss";
+
+footer{
+    height: 3.25em;
+    width: 100%;
+    background-color: $primary-color;
+    font-size: 50px;
+    text-align: center;
+    color: $color-text1;
+    margin: 0;
+}
+.face{
+    color: $secondary-color;
+}
+.insta{
+    color: $color-text1
+}
+.what{
+    color: rgb(13, 219, 13);
+}
+.footerContacto{
+    list-style: none;
+}
+.twit{
+    color: rgb(9, 118, 243);
+}
+.LineBlock{
+    display: inline-block;
+    margin-top: 20px;
+    padding-left: 30px;
+
+}
+.copyr{
+    font-size: 20px;
+}
+
+.ini{
+    height: 40px;
+    width:40px;
+    color: #312f2f;
+    text-align: center;
+    border: 2px solid #312f2f;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 1px rgba(218, 197, 8, 0.4),
+    -1px -1px 5px 1px rgba(218, 197, 8, 0.4);
+}
+.contactI{
+    height: 40px;
+    width: 40px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    color: #312f2f;
+    text-align: center;
+    border: 2px solid #312f2f;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    font-size: 30px;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px 1px rgba(218, 197, 8, 0.4),
+    -1px -1px 5px 1px rgba(218, 197, 8, 0.4);
+}

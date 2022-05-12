@@ -1,0 +1,80 @@
+@import "colors.scss";
+
+.jumbotron {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+
+    h1 {
+        color: $color-text1;
+        font-family: 'Berkshire Swash', cursive;
+        text-shadow: 0px 1px 0px #E04D01;
+        text-shadow: 0px 2px 0px #E04D01;
+        text-shadow: 0px 3px 0px #E04D01;
+        text-shadow: 0px 4px 0px #E04D01;
+        text-shadow: 0px 5px 0px #E04D01;
+        text-shadow: 0px 6px 5px #E04D01;
+        animation-duration: 2s;
+        animation-name: disappear;
+        animation-delay: 5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+    p {
+        color: $color-text1;
+        text-shadow: 0px 1px 0px #F66B0E;
+        font-weight: bolder;
+    }
+}
+
+.nombreColor {
+    text-shadow: 1px 7px 0px #2FA4FF;
+    text-shadow: 1px 7px 5px #2FA4FF;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*----------------------comienzo section aboutMe----------------------------*/
+.sectA h2 {
+    background-color: $primary-color;
+    color: $color-text1;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.nleft {
+    background-image: url(../img/about.png);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin: 0;
+}
+
+.nright {
+    background: linear-gradient(70deg, $secondary-color, $color-text1);
+    height: auto;
+    text-align: center;
+
+    h3 {
+        color: $color-text1;
+        text-shadow: 1px 1px 1px #E04D01;
+    }
+
+    p {
+        margin-top: 50px;
+    }
+}
+
+/*----------------------End section aboutMe---------------------------------*/
+/*----------------------------------------comienza page aboutme---------------------------------------*/
