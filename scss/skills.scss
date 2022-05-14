@@ -14,13 +14,16 @@
     border: 2px solid black;
     border-radius: 7px;
 }
+@mixin animation ($transform, $transition) {
+    transform: $transform;
+    transition: $transition;
+}
 .contenedorSkills h1:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
+    @include animation (scale(1.05), all 0.5s);
+
 }
 .contenedorSkills .img:hover{
-    transform: scale(1.05);
-    transition: all 0.5s;
+    @include animation (scale(1.05), all 0.5s);
 }
 .img1{
     background-image: url(../img/react.png);
@@ -29,29 +32,24 @@
 
 }
 .img2{
+    @extend .img1;
     background-image: url(../img/java.png);
-    background-size: cover;
-    background-position: center;
 }
 .img3{
+    @extend .img1;
     background-image: url(../img/css.png);
-    background-size: cover;
-    background-position: center;
 }
 .img4{
+    @extend .img1;
     background-image: url(../img/git.png);
-    background-size: cover;
-    background-position: center;
 }
 .img5{
+    @extend .img1;
     background-image: url(../img/html.png);
-    background-size: cover;
-    background-position: center;
 }
 .img6{
+    @extend .img1;
     background-image: url(../img/bootstrap.png);
-    background-size: cover;
-    background-position: center;
 }
 .audio{
     text-align: center;
