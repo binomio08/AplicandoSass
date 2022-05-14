@@ -1,0 +1,19 @@
+
+#aboutMe{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+
+}
+.aleft img{
+    border-radius: 50%;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+#aboutMe li{
+    text-align: center;
+    list-style: none;
+    color: #EFEFEF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
